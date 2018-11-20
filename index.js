@@ -24,7 +24,7 @@ function buildTriangle() {
         for (let b = 1; b <= a; b++) {
             star = star + '* ';
         }
-        star = star + "<br>";
+        star = star + "<br/>";
     }
     return star;
 }
@@ -70,7 +70,7 @@ function buildDiamond() {
     }
     //return star;
     for (i = 10; i >= 1; i--) {
-        for (j = i-1; j < 10; j++) {
+        for (j = i - 1; j < 10; j++) {
             star = star + '&nbsp;';
         }
         for (k = 0; k < (i * 2) - 1; k++) {
