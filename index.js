@@ -69,7 +69,7 @@ function buildDiamond() {
         star = star + "<br/>";
     }
     //return star;
-    for (i = 10; i >= 1; i--) {
+    for (i = 9; i >= 1; i--) {
         for (j = i - 1; j < 10; j++) {
             star = star + '&nbsp;';
         }
